@@ -44,3 +44,59 @@ h2{
     color: hsl(332, 51%, 32%);
 }
 
+.parag{
+    margin-bottom: 1rem;
+    font-family: 'Outfit';
+    font-size: 0.8rem;
+}
+
+
+ul, ol{
+    margin-left: 1.5rem;
+}
+
+ul li, ol li{
+    /* margin-bottom: 0.75rem;
+    margin-left: rem; */
+}
+
+strong{
+    font-weight: 600;
+}
+
+.preparation-time{
+    font-size: 0.8rem;
+    font-family: 'Outfit';
+    /* margin-left: 2rem; */
+    background-color: hsl(330, 100%, 98%);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.preparation-time h2{
+    margin-bottom: 0.5rem;
+}
+.preparation-time li{
+    margin-bottom: 0.2rem;
+    margin-left: 0.8rem;
+    opacity: 0.7;
+}
+
+.preparation-time li::marker{
+    margin-right: 2rem;
+    color: hsl(332, 51%, 32%);
+}
+
+.preparation-time strong{
+    font-weight: 800;
+    font-size: 0.8rem;
+    
+
+}
+
+
+.ingredients h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-size: 1.5rem;
+}
