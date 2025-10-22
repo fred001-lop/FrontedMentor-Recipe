@@ -12,9 +12,8 @@
 
 body{
     background-color: hsl(330, 100%, 98%);
-    font-family: 'Young Serif';
+    /* font-family: 'Young Serif'; */
     display: flex;
-    flex-direction: column;
     font-size: 1rem;
     color: hsl(24, 5%, 18%);
     line-height: 1.6;
@@ -22,6 +21,26 @@ body{
     justify-content: center;
 }
 
+.title{
+    font-family: 'Young Serif';
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
 .card{
     background-color: hsl(0, 0%, 100%);
+    max-width: 600px;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
 }
+
+.image{
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    color: hsl(332, 51%, 32%);
+}
+
