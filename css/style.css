@@ -164,3 +164,48 @@ strong{
     margin-bottom: 0.5rem;
 }
 
+.nutrition table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+}
+
+.nutrition td{
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.nutrition td:first-child{
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit';
+    font-size: 0.8rem;
+}
+
+.nutrition tr:last-child td {
+    border-bottom: none; 
+    
+}
+.nutrition td:last-child{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Outfit';
+    font-weight: 600;
+    border-bottom: ;
+}
+
+.attribution{
+    font-family: 'Outfit';
+}
+
+.attribution a{
+    font-family: 'Outfit';
+    color: hsl(14, 45%, 36%);
+    text-decoration: none;
+    transform: color 0.3s ease;
+}
+
+.attribution a:hover{
+    color: hsl(332, 51%, 32%);
+    text-decoration: underline;
+}
