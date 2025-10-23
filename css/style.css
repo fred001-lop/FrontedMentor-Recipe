@@ -209,3 +209,51 @@ strong{
     color: hsl(332, 51%, 32%);
     text-decoration: underline;
 }
+
+
+/* media querys */
+
+@media (max-width: 480px) {
+  body {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 1rem;
+    max-width: 100%;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    line-height: 1.3;
+  }
+
+  .parag {
+    font-size: 0.85rem;
+  }
+
+  .preparation-time {
+    padding: 1rem;
+    font-size: 0.75rem;
+  }
+
+  .ingredients li,
+  .instructions li,
+  .nutrition td:first-child,
+  .nutrition td:last-child {
+    font-size: 0.75rem;
+  }
+
+  .image {
+    border-radius: 8px;
+  }
+
+  .nutrition table {
+    margin-bottom: 3rem;
+  }
+
+  .attribution {
+    font-size: 0.7rem;
+    text-align: center;
+  }
+}
