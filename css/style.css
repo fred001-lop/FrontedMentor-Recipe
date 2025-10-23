@@ -71,6 +71,7 @@ strong{
     background-color: hsl(330, 100%, 98%);
     padding: 2rem;
     border-radius: 10px;
+    margin-bottom: 1.8rem;
 }
 
 .preparation-time h2{
@@ -79,7 +80,7 @@ strong{
 .preparation-time li{
     margin-bottom: 0.2rem;
     margin-left: 0.8rem;
-    opacity: 0.7;
+    color: hsl(30, 10%, 34%);
 }
 
 .preparation-time li::marker{
@@ -94,9 +95,72 @@ strong{
 
 }
 
-
 .ingredients h2{
     color: hsl(14, 45%, 36%);
     font-family: 'Young Serif';
     font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
 }
+
+.ingredients li{
+    font-family: 'Outfit';
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+    color: hsl(30, 10%, 34%);
+}
+
+.linea{
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.instructions{
+    margin-bottom: 2rem;
+}
+.instructions h2{
+    color: hsl(14, 45%, 36%);
+    font-family: 'Young Serif';
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.instructions li{
+    font-family: 'Outfit';
+    /* opacity: 0.7; */
+    color: hsl(30, 10%, 34%);
+    font-size: 0.8rem;
+    line-height: 1.2;
+    margin-bottom: 0.4rem;
+}
+
+.instructions li::marker{
+    color: hsl(332, 51%, 32%);
+    font-weight: 600;
+}
+
+.linea-ins{
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 1px;
+    margin-bottom: 2rem;
+}
+
+.nutrition h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 1.5rem;
+    font-family: 'Young Serif';
+    font-weight: 500;
+    margin-bottom: 0.6rem;
+}
+
+.nutrition p{
+    color: hsl(30, 10%, 34%);
+    font-family: 'Outfit';
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
